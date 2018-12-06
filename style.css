@@ -6,6 +6,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
+    /* background-image: url('./images/732.jpg'); */
+    /* background-position: top;
+    background-size: cover;
+    background-repeat: repeat-x; */
 }
 
 .wrapper{
@@ -21,7 +25,8 @@ body{
             NAV
 ----------------------------- */
 .scrolleded {
-    background: rgba(0, 0, 0, 0.377);
+    background: rgba(0, 0, 0, 0.432);
+    /* background: rgb(255, 255, 255); */
     transition: background 500ms ;
 }
 .scrolled-brand {
@@ -33,8 +38,13 @@ body{
     transition: all 500ms !important;
 }
 .scrolled-link {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     border: 1px solid rgba(255, 255, 255, 0) !important;
+    /* border: 1px solid rgb(28, 234, 189) !important; */
+    transition: all 500ms !important;
+}
+.scrolled-link:hover {
+    border: 1px solid rgb(28, 234, 189) !important;
     transition: all 500ms !important;
 }
 
@@ -53,20 +63,19 @@ nav{
 
 nav .nav-link {
     color: rgb(116, 115, 115);
-    padding: 9px 13px;
+    padding: 9px 17px;
     margin-right: 20px;
     border: 1px solid white;
 }
-/* nav .nav-link:nth-child(3) {
-    margin-right: 0px !important;
-    color: red;
-} */
+    /* border: 1px solid rgb(76, 223, 8); */
 
 nav .nav-link:hover {
     color: rgb(28, 234, 189);
     border: 1px solid rgb(28, 234, 189);
     padding: 9px 17px;
     margin-right: 20px;
+    transition: all 500ms !important;
+    cursor: pointer;
 }
 
 nav .navbar-brand {
@@ -74,7 +83,8 @@ nav .navbar-brand {
     font-size: 1.6rem;
 }
 nav small {
-    color: rgb(0, 71, 15);
+    /* color: rgb(0, 71, 15); */
+    color: rgb(116, 115, 115);
     font-size: 1.2rem;
 }
 
@@ -86,30 +96,42 @@ nav small {
 /* -----------------
         SECTIONS
 -------------------- */
-
+#section-0{
+    background-image: url('./images/trees.png');
+    background-position: center;
+    background-size: cover;
+    height:280px;
+    width: 100%;
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
 #section-0{
     padding: 55px 20px;
     text-align: center;
 }
-
-#section-0 h2{
+#section-0,#section-2 h2{
     font-size: 32px;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.712); */
+    color: rgb(28, 234, 189);
+    
+}
+#section-0 h2{
+    /* border: 1px solid red; */
 }
 #section-2{
     padding: 55px 20px;
     text-align: center;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+    /* border: 1px solid blue; */
 }
-
 #section-2 h2{
     font-size: 32px;
+    color: rgb(28, 234, 189);
 }
-
-#banner{
-    position: relative;
+#section-1{
+    margin-top: 0px;   /* NICAN  */
+}
+ #banner{
     margin-top: 89px;
-    /* border: 1px solid green; */
     width: 100%;
     max-width: 1180px;
     padding: 0 10px;
@@ -117,20 +139,14 @@ nav small {
     margin-right: auto;
 }
 
-#banner img{
-    width: 100%;
-    height: 470px;
-    padding: 0; 
-    margin: 0; 
-}
-
 /* ---------------------------
             SERVICES
 ----------------------------- */
 
 .card{
-    width: 95%;
-    box-shadow: 5px 30px 5px 6px greenyellow;
+    /* height: 300px; */
+    width: 100%;
+    /* box-shadow: 5px 30px 5px 6px greenyellow; */
 }
 .card-title{
     text-align: center;
@@ -138,3 +154,21 @@ nav small {
 .card-text{
     text-align: center;
 }
+.col-md-4{
+    padding: 0;
+}
+
+/* ---------------------------
+            CONTACT
+----------------------------- */
+#section-2 img{
+    border-radius: 50%; 
+    height: 70%;
+    width: 300px;
+    display: inline-block;
+}
+#section-2{
+    padding: 0;
+    /* margin: 0; */
+}
+
