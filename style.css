@@ -3,18 +3,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
-    /* background-image: url('./images/732.jpg'); */
-    /* background-position: top;
-    background-size: cover;
-    background-repeat: repeat-x; */
+    
 }
 
 .wrapper{
     /* border: 1px solid rgb(255, 4, 4); */
-    /* width: 100%; */
     max-width: 1180px;
     padding: 0;
     margin: 0 auto;
@@ -97,16 +93,6 @@ nav small {
         SECTIONS
 -------------------- */
 #section-0{
-    background-image: url('./images/trees.png');
-    background-position: center;
-    background-size: cover;
-    height:280px;
-    width: 100%;
-    background-repeat: repeat-x;
-    margin-top: 0px;
-    /* border: 1px solid red; */
-}
-#section-0{
     padding: 55px 20px;
     text-align: center;
 }
@@ -171,4 +157,33 @@ nav small {
     padding: 0;
     /* margin: 0; */
 }
+#section-2 .contact{
+    padding-top: 10px;
+    text-align: center;
+}
+#section-2 p{
+    font-size: 18px;
+}
+#section-2 i{
+    align-content: center;
+    justify-content: center;
+    margin-top: 1px;
+    padding-right: 2px;
+}
 
+.grass{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.grass img{
+    width: 1346px;
+}
+
+.wrapper-bottom{
+    /* border: 1px solid rgb(255, 4, 4); */
+    max-width: 1390px;
+    padding: 0;
+    margin: 0 auto;
+    /* box-shadow: 1px -100px 70px 1px rgba(28, 234, 189, 0.671); */
+}
